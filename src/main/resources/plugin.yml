@@ -1,0 +1,7 @@
+name: RestrictOutsideBorder
+version: '1.0-SNAPSHOT'
+author: RunQ
+main: com.nekozouneko.restrictOutsideBorder.RestrictOutsideBorder
+api-version: '1.21'
+
+folia-supported: true
