@@ -9,6 +9,6 @@ import org.bukkit.event.block.BlockBreakEvent
 class BlockBreakListener : Listener{
     @EventHandler(ignoreCancelled = false, priority = EventPriority.LOWEST)
     fun onBlockBreak(e: BlockBreakEvent){
-        EventManager.cancelEvent(e, e.block.location)
+        EventManager.cancelEvent(e, e.block.location, e.player)
     }
 }
