@@ -5,3 +5,11 @@ main: com.nekozouneko.restrictOutsideBorder.RestrictOutsideBorder
 api-version: '1.21'
 
 folia-supported: true
+
+commands:
+  robreload:
+    permission: rob.reload
+
+permissions:
+  rob.reload:
+    default: op
