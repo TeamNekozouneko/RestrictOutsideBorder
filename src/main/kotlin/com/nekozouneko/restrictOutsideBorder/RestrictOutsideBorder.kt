@@ -1,7 +1,6 @@
 package com.nekozouneko.restrictOutsideBorder
 
 import com.nekozouneko.restrictOutsideBorder.commands.ReloadCommand
-import com.nekozouneko.restrictOutsideBorder.listener.BlockBreakListener
 import org.bukkit.event.Listener
 import org.bukkit.plugin.java.JavaPlugin
 import org.reflections.Reflections

@@ -1,5 +1,5 @@
 name: RestrictOutsideBorder
-version: '1.0-SNAPSHOT'
+version: ${version}
 author: RunQ
 main: com.nekozouneko.restrictOutsideBorder.RestrictOutsideBorder
 api-version: '1.21'
